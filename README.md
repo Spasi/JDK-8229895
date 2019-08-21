@@ -161,3 +161,35 @@ JNIBenchmark.func4Crit  avgt    3  11.536 ± 0.308  ns/op
 ```
 
 _No slowdown observed._
+
+### Additional Results
+
+#### Linux, JDK 1.8.0_222, Intel Xeon E-2176M (Coffee Lake)
+```
+Benchmark               Mode  Cnt  Score   Error  Units
+JNIBenchmark.func0      avgt    3  4.293 ± 0.408  ns/op
+JNIBenchmark.func0Crit  avgt    3  4.340 ± 0.116  ns/op
+JNIBenchmark.func1      avgt    3  4.432 ± 0.033  ns/op
+JNIBenchmark.func1Crit  avgt    3  4.445 ± 0.329  ns/op
+JNIBenchmark.func2      avgt    3  4.492 ± 0.024  ns/op
+JNIBenchmark.func2Crit  avgt    3  4.237 ± 0.021  ns/op
+JNIBenchmark.func3      avgt    3  4.912 ± 0.040  ns/op
+JNIBenchmark.func3Crit  avgt    3  4.089 ± 0.209  ns/op
+JNIBenchmark.func4      avgt    3  4.605 ± 0.123  ns/op
+JNIBenchmark.func4Crit  avgt    3  4.294 ± 0.013  ns/op
+```
+
+#### Linux, JDK 12.0.2, Intel Xeon E-2176M (Coffee Lake)
+```
+Benchmark               Mode  Cnt  Score   Error  Units
+JNIBenchmark.func0      avgt    3  8.730 ± 3.209  ns/op
+JNIBenchmark.func0Crit  avgt    3  8.641 ± 1.658  ns/op
+JNIBenchmark.func1      avgt    3  9.101 ± 0.261  ns/op
+JNIBenchmark.func1Crit  avgt    3  7.962 ± 0.065  ns/op
+JNIBenchmark.func2      avgt    3  9.527 ± 1.204  ns/op
+JNIBenchmark.func2Crit  avgt    3  8.411 ± 0.140  ns/op
+JNIBenchmark.func3      avgt    3  8.427 ± 0.055  ns/op
+JNIBenchmark.func3Crit  avgt    3  8.445 ± 0.076  ns/op
+JNIBenchmark.func4      avgt    3  9.132 ± 0.090  ns/op
+JNIBenchmark.func4Crit  avgt    3  8.747 ± 0.238  ns/op
+```
