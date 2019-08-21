@@ -8,7 +8,6 @@ On the native side, the JNI functions do nothing at all.
 ### Requirements
 
 - JDK 8+ (`JAVA_HOME` must be exported, pointing to the JDK root)
-- Maven
 - GCC on Linux
 - clang on macOS
 - MSVC on Windows
