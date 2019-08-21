@@ -1,0 +1,8 @@
+;Workaround for JDK-8167408
+LIBRARY    jni_overhead.dll
+EXPORTS
+    JavaCritical_org_lwjgl_jdk8229895_JNIOverhead_func0
+    JavaCritical_org_lwjgl_jdk8229895_JNIOverhead_func1
+    JavaCritical_org_lwjgl_jdk8229895_JNIOverhead_func2
+    JavaCritical_org_lwjgl_jdk8229895_JNIOverhead_func3
+    JavaCritical_org_lwjgl_jdk8229895_JNIOverhead_func4
