@@ -11,4 +11,4 @@ EXIT /b 1
 :BENCH
 CALL build-dll.bat
 CALL mvnw.cmd package
-"%JAVA_HOME%\bin\java" -Djava.library.path=target -jar target/benchmarks.jar
+"%JAVA_HOME%\bin\java" -Djava.library.path=target %* -jar target/benchmarks.jar

@@ -9,5 +9,5 @@ else
         bash ./build-so.sh
     fi
     ./mvnw package
-    $JAVA_HOME/bin/java -Djava.library.path=target -jar target/benchmarks.jar
+    $JAVA_HOME/bin/java -Djava.library.path=target $* -jar target/benchmarks.jar
 fi
